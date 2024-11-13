@@ -9,3 +9,5 @@ console.info('le savize vous')
 const p = document.querySelector('p');
 
 console.assert(p.classList.contains('bonjour'),'cest faux');
+
+console.clear();
