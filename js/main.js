@@ -34,3 +34,13 @@ dogs.forEach(dog => {
     console.log(dog.age);
     console.groupEnd(dog.name)
 })
+
+console.count('ter')
+console.count('kop')
+console.count('ter')
+console.count('kop')
+console.count('ter')
+console.count('kop')
+console.count('ter')
+console.count('ter')
+console.count('kop')
