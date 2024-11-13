@@ -55,3 +55,5 @@ fetch('https://api.github.com/users/enzovcnt')
         console.timeEnd('fetching data');
         console.log(data);
 });
+
+console.table(dogs);
