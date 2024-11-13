@@ -44,3 +44,14 @@ console.count('kop')
 console.count('ter')
 console.count('ter')
 console.count('kop')
+
+
+console.clear();
+
+console.time('fetching data');
+fetch('https://api.github.com/users/enzovcnt')
+    .then(data => data.json())
+    .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+});
