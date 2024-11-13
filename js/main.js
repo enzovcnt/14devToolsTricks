@@ -11,3 +11,6 @@ const p = document.querySelector('p');
 console.assert(p.classList.contains('bonjour'),'cest faux');
 
 console.clear();
+
+console.log(p);
+console.dir(p);
